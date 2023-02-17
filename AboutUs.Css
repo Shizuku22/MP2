@@ -7,7 +7,6 @@
 
 .big-container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #a53e76 ;
 background: -webkit-linear-gradient(to right, #c00d6f, #5e133c);
 background: linear-gradient(to right, #c00d6f, #5e133c);
     min-height: 50vh;
@@ -15,6 +14,16 @@ background: linear-gradient(to right, #c00d6f, #5e133c);
     background-attachment: fixed;
     position: relative;
     z-index: 2;   
+}
+
+
+.nav-item:hover {
+  background-color: #a53e76;
+}
+.navbar{
+background: #a53e76 ;
+background: -webkit-linear-gradient(to right, #c00d6f, #5e133c);
+background: linear-gradient(to right, #c00d6f, #5e133c); 
 }
 
 
@@ -519,3 +528,19 @@ div.gallery2 {
       color: rgb(255, 255, 255);
     }
   
+
+    footer{
+      background: -webkit-linear-gradient(to right, #c00d6f, #5e133c);
+      background: linear-gradient(to right, #c00d6f, #5e133c);
+    }
+
+    .container2  {
+      text-align: center;
+      background: #a53e76 ;
+      background: -webkit-linear-gradient(to right, #d4599d, #a53e76);  
+      background: linear-gradient(to right, #d4599d, #a53e76); 
+    }
+    links img{
+      height: 3%;
+      width: 3%;
+      }
